@@ -14,7 +14,7 @@ class RockMusicTheme {
   static const Color _lightonPrimaryContainer = Color(0xFF000000);
   static const Color _lightPrimaryFixed = Color(0xFF18171C);
   static const Color _lightOnPrimaryFixed = Color(0xFF550120);
-  static const Color _lightPrimaryFixedDim = Color(0xFF61616B);
+  static const Color _lightPrimaryFixedDim = Color(0xFFCBC9FF);
   static const Color _lightonPrimaryFixedVariant = Color(0xFF2C2D31);
   static const Color _lightSecondaryColor = Color(0xFFCBC9FF);
   static const Color _lightOnSecondaryColor = Color(0xFFC4C4C4);
@@ -59,37 +59,43 @@ class RockMusicTheme {
     headlineMedium: TextStyle(
       fontWeight: FontWeight.w700,
       fontSize: 24,
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
     ),
     headlineSmall: TextStyle(
       color: Colors.black,
       fontSize: 20,
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
     ),
     titleSmall: TextStyle(
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
       color: Color(0xFFFFFFFF),
     ),
     titleMedium: TextStyle(
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
       color: Color(0xFFFFFFFF),
+      fontSize: 14,
+      fontWeight:FontWeight.w700,
+
     ),
     titleLarge: TextStyle(
       fontSize: 16,
       color: Color(0xFFFFFFFF),
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
+      fontWeight:FontWeight.w700,
+
     ),
     bodyLarge: TextStyle(
       fontSize: 14,
       color: Color(0xFFFFFFFF),
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
+      fontWeight:FontWeight.w700,
     ),
     bodyMedium: TextStyle(fontSize: 14, fontFamily: 'Syne'),
     bodySmall: TextStyle(
       fontWeight: FontWeight.w400,
       color: Color(0xFFFFFFFF),
       fontSize: 12.0,
-      fontFamily: 'Syne',
+      fontFamily: 'ProximaNova',
     ),
   );
   static final InputDecorationTheme _lightInputDecorationTheme =
