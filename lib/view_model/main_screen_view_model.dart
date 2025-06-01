@@ -29,50 +29,6 @@ class MainScreenViewModel extends BaseModel {
     notifyListeners();
   }
 
-  //
-  // List<Tab> navItems(BuildContext context) => [
-  //   Tab(
-  //     icon:  SvgPicture.asset(
-  //       'assets/icons/Card.svg',
-  //       height: SizeConfig.screenHeight! * 0.07,
-  //       color: selectedIndex == 0
-  //           ? Theme.of(context).colorScheme.onPrimary
-  //           : Theme.of(context).colorScheme.primaryFixedDim,
-  //     ),
-  //   ),
-  //   Tab(
-  //     icon: SvgPicture.asset(
-  //       'assets/icons/Vector.svg',
-  //       height: SizeConfig.safeBlockVertical! * 4,
-  //       width: SizeConfig.safeBlockHorizontal! * 8,
-  //       color: selectedIndex == 1
-  //           ? Theme.of(context).colorScheme.onPrimary
-  //           : Theme.of(context).colorScheme.primaryFixedDim,
-  //     ),
-  //   ),
-  //   Tab(
-  //     icon:  Image.asset(
-  //       'assets/icons/Icons.png',
-  //       height: SizeConfig.safeBlockVertical! * 4,
-  //       width: SizeConfig.safeBlockHorizontal! * 8,
-  //
-  //       color: selectedIndex == 2
-  //           ? Theme.of(context).colorScheme.onPrimary
-  //           : Theme.of(context).colorScheme.primaryFixedDim,
-  //     ),
-  //   ),
-  //   Tab(
-  //     icon:  SvgPicture.asset(
-  //       'assets/icons/User.svg',
-  //       height: SizeConfig.safeBlockVertical! * 6,
-  //       width: SizeConfig.safeBlockHorizontal! * 8,
-  //
-  //       color: selectedIndex == 3
-  //           ? Theme.of(context).colorScheme.onPrimary
-  //           : Theme.of(context).colorScheme.primaryFixedDim,
-  //     ),
-  //   ),
-  // ];
   List<Tab> navItems(BuildContext context) => [
     Tab(
       child: SizedBox(
@@ -83,10 +39,7 @@ class MainScreenViewModel extends BaseModel {
             SvgPicture.asset(
               'assets/icons/Card.svg',
               height: SizeConfig.screenHeight! * 0.07,
-              color:
-                  selectedIndex == 0
-                      ? Theme.of(context).colorScheme.onPrimary
-                      : Theme.of(context).colorScheme.primaryFixedDim,
+
             ),
           ],
         ),
@@ -102,10 +55,6 @@ class MainScreenViewModel extends BaseModel {
               'assets/icons/Vector.svg',
               height: SizeConfig.safeBlockVertical! * 4,
               width: SizeConfig.safeBlockHorizontal! * 8,
-              color:
-                  selectedIndex == 1
-                      ? Theme.of(context).colorScheme.onPrimary
-                      : Theme.of(context).colorScheme.primaryFixedDim,
             ),
             Positioned(
               right: SizeConfig.safeBlockHorizontal! * 1.8,
@@ -143,10 +92,6 @@ class MainScreenViewModel extends BaseModel {
               'assets/icons/Icons.png',
               height: SizeConfig.safeBlockVertical! * 4,
               width: SizeConfig.safeBlockHorizontal! * 8,
-              color:
-                  selectedIndex == 2
-                      ? Theme.of(context).colorScheme.onPrimary
-                      : Theme.of(context).colorScheme.primaryFixedDim,
             ),
             Positioned(
               right: SizeConfig.safeBlockHorizontal! * 1.8,
@@ -184,10 +129,6 @@ class MainScreenViewModel extends BaseModel {
               'assets/icons/User.svg',
               height: SizeConfig.safeBlockVertical! * 6,
               width: SizeConfig.safeBlockHorizontal! * 8,
-              color:
-                  selectedIndex == 3
-                      ? Theme.of(context).colorScheme.onPrimary
-                      : Theme.of(context).colorScheme.primaryFixedDim,
             ),
           ],
         ),
