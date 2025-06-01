@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stroll/services/size_config.dart';
 import 'package:stroll/view/base_view.dart';
+import 'package:stroll/view/home_screen.dart';
 import 'package:stroll/view_model/main_screen_view_model.dart';
 
 class MainScreen extends StatefulWidget {
@@ -27,14 +28,7 @@ class _MainScreenState extends State<MainScreen>
                 TabBarView(
                   controller: model.tabController,
                   children: [
-                    Center(
-                      child: Text(
-                        "News",
-                        style: Theme.of(
-                          context,
-                        ).textTheme.titleLarge?.copyWith(fontSize: 20),
-                      ),
-                    ),
+                    HomeScreen(),
                     Center(
                       child: Text(
                         "News",
