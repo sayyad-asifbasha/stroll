@@ -3,7 +3,6 @@ import 'package:stroll/locator.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stroll/view/base_view.dart';
-import 'package:flutter/services.dart' show SystemChrome, SystemUiOverlayStyle;
 import 'package:stroll/router.dart' as router;
 import 'package:stroll/constants/routing_constants.dart';
 
